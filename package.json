@@ -1,0 +1,23 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Automação de testes end-to-end com cypress",
+  "main": "cypress.config.js",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=880",
+    "test": "cypress run",
+    "cy:test:mobile": "cypress run --config viewportWidth=410 viewportHeight=880"
+  },
+  "author": "Luan Noleto",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "github:faker-js/faker",
+    "cypress": "^13.6.0",
+    "cypress-mailosaur": "^2.14.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-cypress": "^2.15.1"
+  }
+}
