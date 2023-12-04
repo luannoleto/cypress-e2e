@@ -1,5 +1,3 @@
-// cypress/e2e/signup.cy.js
-
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {

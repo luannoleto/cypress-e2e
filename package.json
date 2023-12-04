@@ -14,7 +14,7 @@
   "author": "Luan Noleto",
   "license": "MIT",
   "devDependencies": {
-    "@faker-js/faker": "github:faker-js/faker",
+    "@faker-js/faker": "^8.3.1",
     "cypress": "^13.6.0",
     "cypress-mailosaur": "^2.14.0",
     "eslint": "^8.54.0",
